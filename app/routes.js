@@ -1,6 +1,6 @@
 import app from './app';
 
-import {Home, Contact, About} from './screens';
+import {Home, Contact, About, Bonus} from './screens';
 
 export default {
     path: '/',
@@ -8,6 +8,7 @@ export default {
     indexRoute: Home,
     childRoutes: [
         About,
-        Contact
+        Contact,
+        Bonus
     ]
 };
