@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Navbar} from './components';
 
-const brandName = 'Project name';
+const brandName = 'Frontend Task for Oleg';
 
 const navLinks = [{
     to: '/about',
